@@ -3,20 +3,15 @@ package Evaluation2;
 public class Question4 {
     public static void main(String[] args) {
         {
-            int j;
-            for (int i = 1; i <= 4; i++) {
-                for (j = 1; j <= 7; j++)
-                {
-                        if (i %2==0) {
-                            System.out.print("*");
-                        }
-                        else {
-                            System.out.print(" ");
-                        }
-                    }
-
+            for (int i = 0; i < 4; i++) {
+                for (int j = 4 - i; j >= 0; j--) {
+                    System.out.print(" ");
                 }
-            System.out.println();
+                for (int k = 0; k <= i; k++) {
+                    System.out.print("*" + " ");
+                }
+                System.out.println();
             }
         }
     }
+}
