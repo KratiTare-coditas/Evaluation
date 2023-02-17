@@ -75,7 +75,9 @@ public class Question5 {
 }
 
 
-
+/*Output  Teacher{id=1, name=Aarti, address=Address{plotno=143, houseno=2, area='Betul'}}
+Student{id=101, name=Krati, address=Address{plotno=143, houseno=2, area='Betul'}}
+*/
 
 
 

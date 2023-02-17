@@ -18,3 +18,4 @@ public class Question3 {
         a.Square();
     }
 }
+//This is square

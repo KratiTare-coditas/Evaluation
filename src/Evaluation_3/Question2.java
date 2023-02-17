@@ -17,7 +17,7 @@ class Purchaseorder extends Order{
     }
     public void display()
     {
-        System.out.println("show details within purchaseorder");
+        System.out.println("show details within purchase order");
     }
 
 }
@@ -38,5 +38,9 @@ public class Question2 {
     public static void main(String[] args) {
   Salesorder salesorder=new Salesorder();
   Purchaseorder purchaseorder=new Purchaseorder();
+  purchaseorder.accept();
+  purchaseorder.display();
+  salesorder.accept();
+  salesorder.display();
     }
 }

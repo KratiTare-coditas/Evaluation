@@ -36,6 +36,9 @@ class CalculateAreaAndPeri{
         this.perimeter = perimeter;
     }
 }
+//Output:The area of rectangle is::20
+//The perimeter of rectangle is::24
+
 
 public class Question1 {
     public static void main(String[] args) {
