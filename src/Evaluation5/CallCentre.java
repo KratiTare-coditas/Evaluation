@@ -44,17 +44,20 @@ static int balance=0;
 
     public void newConnection()
     {
-
+ List<Integer>users=new ArrayList<>();
         //String name,email,address,simtype;
  //int aadharnumber,balance;
  //Random number=new Random(10);
         System.out.println("Enter name of user");
         Scanner sc=new Scanner(System.in);
         String name=sc.nextLine();
+       // String names[];
         System.out.println("Enter email id");
         String email=sc.nextLine();
+       // String email[];
         System.out.println("Enter address");
         String address=sc.nextLine();
+       // String address[];
         System.out.println("Enter simtype");
         String simtype=sc.nextLine();
         System.out.println("Enter aadharNumber::");
